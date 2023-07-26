@@ -3,4 +3,15 @@ local opts = { noremap = true, silent = true }
 
 vim.g.mapleader = ' '
 
+-- toggle NvimTree
 map('n', '<leader>e', ':NvimTreeToggle<CR>', opts)
+
+-- Copy to system clipboard
+map('n', '<leader>y', '"+y', opts)
+map('v', '<leader>y', '"+y', opts)
+
+-- Paste from system clipboard
+map('n', '<leader>p', '"+p', opts)
+map('v', '<leader>p', '"+p', opts)
+
+
