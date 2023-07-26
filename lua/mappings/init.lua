@@ -11,7 +11,7 @@ map('n', '<leader>y', '"+y', opts)
 map('v', '<leader>y', '"+y', opts)
 
 -- Paste from system clipboard
-map('n', '<leader>p', '"+p', opts)
-map('v', '<leader>p', '"+p', opts)
+map('n', '<leader>P', '"+p', opts)
+map('v', '<leader>P', '"+p', opts)
 
 
