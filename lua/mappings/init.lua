@@ -14,4 +14,5 @@ map('v', '<leader>y', '"+y', opts)
 map('n', '<leader>P', '"+p', opts)
 map('v', '<leader>P', '"+p', opts)
 
-
+-- Add the keybinding for Ctrl + Backspace to delete a word in insert mode
+map('i', '<C-H>', '<C-W>', opts)
